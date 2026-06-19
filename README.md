@@ -5,6 +5,9 @@
 ![ML](https://img.shields.io/badge/ML-Isolation%20Forest-orange)
 ![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit-red)
 
+## 🎥 Demo Video
+[Watch the live dashboard demo](https://youtu.be/dmPLxP68XqY)
+
 A Python-based medical device simulator that generates, monitors, and logs real-time patient vital signs data with **AI-powered anomaly detection**.
 
 Built as part of my Medical Systems Engineering portfolio at Otto-von-Guericke-Universität Magdeburg.
