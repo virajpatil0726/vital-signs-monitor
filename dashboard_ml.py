@@ -55,7 +55,7 @@ table_placeholder = st.empty()
 
 readings_history = []
 
-for i in range(100):
+while True:
     reading = generate_all_vitals(1)[0]
     readings_history.append(reading)
 
