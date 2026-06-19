@@ -16,7 +16,7 @@ DIASTOLIC_HIGH = 80
 # ALERT FUNCTIONS
 # ============================================
 
-def check_heart_rate(heart_rate):
+def check_heart_rate(heart_rate: int) -> tuple: 
     """Check if heart rate is in safe range"""
     if heart_rate > HEART_RATE_HIGH:
         return "CRITICAL", f"Heart rate TOO HIGH: {heart_rate} bpm (max {HEART_RATE_HIGH})"
