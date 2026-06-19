@@ -8,6 +8,8 @@ import pandas as pd
 from vital_signs_simulator import generate_all_vitals
 from alerts import check_all_vitals
 from anomaly_detector import detect_anomaly, train_model, generate_training_data, inject_anomalies
+import warnings
+warnings.filterwarnings('ignore')
 
 # Page configuration
 st.set_page_config(
